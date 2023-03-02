@@ -41,6 +41,8 @@ mydb.commit()  #this is needed to actually add the items to the table not used i
               # not sure if you need to do this individually for each write yet
 
 
+#for a scoreboard, top ten scores
+#SELECT name FROM leaderboard order by score limit 10;
               #doodling
 #mycursor.execute('CREATE TABLE new_table AS SELECT * FROM   old_table');
 #CREATE VIEW view_name AS SELECT address, name FROM test WHERE productname>10;
